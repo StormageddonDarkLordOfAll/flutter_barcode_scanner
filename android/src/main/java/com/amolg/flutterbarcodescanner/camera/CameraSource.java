@@ -1013,7 +1013,7 @@ public class CameraSource {
                     if (!mActive) {
                         return;
                     }
-
+                    //DUPA DUPA DUPA DUDPAD DUPAA
                     outputFrame = new Frame.Builder()
                             .setImageData(mPendingFrameData, mPreviewSize.getWidth(),
                                     mPreviewSize.getHeight(), ImageFormat.NV21)
