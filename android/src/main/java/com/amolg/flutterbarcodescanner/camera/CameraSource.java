@@ -956,6 +956,7 @@ public class CameraSource {
         // These pending variables hold the state associated with the new frame awaiting processing.
         private long mPendingTimeMillis;
         private int mPendingFrameId = 0;
+        private int testowanko = 0; //usun potem
         private ByteBuffer mPendingFrameData;
 
         FrameProcessingRunnable(Detector<?> detector) {
